@@ -72,6 +72,15 @@ DEFAULT_EDGE_HOSTS = [
     "best.hzample.kdns.fr:443",
     "ctsg.cfyx.aliyun.20237737.xyz:443",
     "china-unicom.cname.cloudflare.468123.xyz:443",
+    "www.mastervolt.com:443",
+    "www.crazygames.fr:443",
+    "dianomi.com:443",
+    "53.fs1.hubspotusercontent-na1.net:443",
+    "stores.staples.com:443",
+    "www.broadcom.com:443",
+    "auto.dolby.dpdns.org:443",
+    "funko.com:443",
+    "www.sofi.com:443",
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
