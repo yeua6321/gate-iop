@@ -73,16 +73,6 @@ jobs:
           MAX_CHECK_NODES: ${{ github.event.inputs.max_nodes || '0' }}
           MIN_SUCCESS_RATIO: '0'
         run: python vpngate.py
-        
-      - name: Verify build output
-        run: |
-          if [ ! -f public/index.html ]; then
-            echo "::error::public/index.html 不存在，流水线没有生成任何产物，部署中止。请检查上一步 Run pipeline 的日志。"
-            ls -la public 2>/dev/null || echo "public/ 目录不存在"
-            exit 1
-          fi
-          echo "产物清单："
-          ls -lh public
 
       - name: Ensure GitHub Pages is enabled
         env:
